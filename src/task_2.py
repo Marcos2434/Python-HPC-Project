@@ -16,7 +16,7 @@ MAX_ITER = 20_000
 ABS_TOL = 1e-4
 
 if __name__ == '__main__':
-    number_of_fp = np.arange(10, 20)
+    number_of_fp = np.arange(10, 20+1)
     
     elapsed_times = []
     

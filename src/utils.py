@@ -37,4 +37,4 @@ def plot_floorplans(results):
                     label='Temperature (°C)')
 
     plt.suptitle('Wall-Heating Simulation Results', fontsize=16)
-    plt.savefig('plots/florrplans')
+    plt.savefig('plots/floorplans')

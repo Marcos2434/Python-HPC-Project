@@ -3,6 +3,12 @@ import sys
 
 import numpy as np
 
+# In case we're not running with the profiler
+try:
+    profile
+except NameError:
+    profile = lambda fn: fn
+
 LOAD_DIR = '/dtu/projects/02613_2025/data/modified_swiss_dwellings/'
 
 # Run jacobi iterations for each floor plan
